@@ -7,3 +7,5 @@ Hello World tutorial...
 
 ## Clone & edit
 18-09-2018
+
+![Alt text](images/git.png?raw=true "Title")
