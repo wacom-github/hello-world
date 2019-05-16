@@ -5,6 +5,34 @@
 ## Abstract
 This document describes the WILL data format. The WILL data format serves as a data model for digital ink, a data encoding scheme that supports pen properties and contextual (domain) meta data.  
 
+### EncodingMethod
+The encoding of the sensor data is either via direct encoding of the values as bytes or via delta encoding.
+
+|Type         | Description                                             | 
+| :---        |    :----                                                |
+|DIRECT       | Values are directly stored according to their DataType. |
+|DELTA        | Differences in directly-encoded values are stored.      |
+
+### InkSensorType
+The InkSensorType enumeration defines a set of known sensor channels available for ink devices (see Figure 1).
+
+|Type         | Metric          | Description |
+| :---        |    :----                               |:---- |:---- |
+|CUSTOM	    |         |Custom channel. This can be used if none of the existing channels matches the sensor type.|
+|X	           | LENGHT  |X coordinate. X-position in the 2D / 3D.                                                  |
+|Y	           | LENGHT  |Y coordinate. Y-position in the 2D / 3D.                                                  |
+|Z	           | LENGHT  |Z coordinate. Z-position in the 3D.                                                       |
+|PRESSURE	    | FORCE   |Force applied to the ink device.                                                          |
+|TIMESTAMP  	 | TIME  	 |Time stamp delta for the channels.                                                        |
+|RADIUS_X     | LENGTH  |Touch radius by X.                                                                        | 
+|RADIUS_Y     | LENGTH  |Touch radius by Y.                                                                        | 
+|AZIMUTH	    | ANGLE   |Azimuth angle of the pen (yaw).                                                           |
+|ALTITUDE   	|  ANGLE   |Elevation angle of the pen (pitch).                                                       |
+|ROTATION	    | ANGLE   |Rotation (counter-clockwise rotation about pen axis).                                     |
+
+To represent the tilt angle of an Ink Device Figure 2 uses azimuth *(OA)* and elevation angle *(OE)*. 
+
+
 # Introduction
 Taking down a phone message, sketching ideas on a whiteboard in a meeting, completing a form at a counter, or signing a mortgage application is part of our daily lives. Writing has a very long history. It began as simple pictographs drawn on rock, then combined to represent ideas and developed into more abstract symbols. Just like our writing today, early symbols were used to store information and communicate it to others.
 
