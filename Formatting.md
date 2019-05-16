@@ -17,7 +17,7 @@ The encoding of the sensor data is either via direct encoding of the values as b
 The InkSensorType enumeration defines a set of known sensor channels available for ink devices (see Figure 1).
 
 |Type         | Metric          | Description |
-| :---        |    :----                               |:---- |:---- |
+| :---        |    :----                               |:---- |
 |CUSTOM	    |         |Custom channel. This can be used if none of the existing channels matches the sensor type.|
 |X	           | LENGHT  |X coordinate. X-position in the 2D / 3D.                                                  |
 |Y	           | LENGHT  |Y coordinate. Y-position in the 2D / 3D.                                                  |
