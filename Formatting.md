@@ -1,2 +1,2 @@
-# Test MD formstting from Bitbucket
+# Test MD formatting from Bitbucket
 
