@@ -28,6 +28,7 @@ Bad:
 |LOGICAL_VALUE |             |Logical boolean value. |
 
 Good:
+
 |Type         | SI unit   | Description               |
 | :---        |    :----:   |          :---           |
 |LENGTH        |	metres      |Length metric, used for coordinates.  |
