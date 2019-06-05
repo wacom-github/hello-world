@@ -10,4 +10,4 @@ cloned and edited
 ## Clone & edit
 18-09-2018
 
-![git screenshot](images/git.png)
+![git screenshot](media/git.png)
