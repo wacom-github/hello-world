@@ -28,7 +28,6 @@ Bad:
 |LOGICAL_VALUE |             |Logical boolean value. |
 
 Good:
-
 |Type         | SI unit   | Description               |
 | :---        |    :----:   |          :---           |
 |LENGTH        |	metres      |Length metric, used for coordinates.  |
@@ -45,11 +44,11 @@ Good:
 - Github filename is case sensitive
 - Relative paths handled differently in Typora/MarkdownEdit/Notepad++
 
-(images/github.png) - preferred method
-![description](images/github.png)
+(media/github.png) - preferred method
+![description](media/github.png)
 
-(/images/github.png)
-![description](/images/github.png)
+(/media/github.png)
+![description](/media/github.png)
 
-(./images/github.png)
-![description](./images/github.png)
+(./media/github.png)
+![description](./media/github.png)
