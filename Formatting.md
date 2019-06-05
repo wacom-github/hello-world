@@ -7,8 +7,8 @@ GH = Github
 
 Headings requires space separator in Github
 
-##H1
-##H2
+##H1 (not a header in GH)
+##H2 (not a header in GH)
 ## H3
 ## H4
 
@@ -18,6 +18,7 @@ Headings requires space separator in Github
 Tables need balanced delimiters | in Github
 
 Bad:
+
 |Type         | SI unit   | Description               |
 | :---        |    :----:   |          :---           |
 |LENGTH        |	metres      |Length metric, used for coordinates.  |
@@ -27,7 +28,7 @@ Bad:
 |NORMALIZED    |             |Percentage, expressed as a fraction (1.0 = 100%). |
 |LOGICAL_VALUE |             |Logical boolean value. |
 
-Good: **+blank line for GH**
+Good:
 
 |Type         | SI unit   | Description               |
 | :---        |    :----:   |          :---           |
