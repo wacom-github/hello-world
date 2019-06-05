@@ -27,7 +27,8 @@ Bad:
 |NORMALIZED    |             |Percentage, expressed as a fraction (1.0 = 100%). |
 |LOGICAL_VALUE |             |Logical boolean value. |
 
-Good:
+Good: **+blank line for GH**
+
 |Type         | SI unit   | Description               |
 | :---        |    :----:   |          :---           |
 |LENGTH        |	metres      |Length metric, used for coordinates.  |
