@@ -56,3 +56,9 @@ Html characters not supported in BB: &#8593;
 
 (./media/github.png)
 ![description](./media/github.png)
+
+---
+
+## Graphics
+
+Html characters not supported in BB: e.g. &#8593;
