@@ -40,6 +40,8 @@ Good:
 |LOGICAL_VALUE |             |Logical boolean value. |
 
 ---
+## Graphics
+Html characters not supported in BB: &#8593;
 
 ## Embedded images
 
